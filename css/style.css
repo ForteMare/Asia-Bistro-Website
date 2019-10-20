@@ -100,28 +100,28 @@ body {
 
 @media (min-width: 1200px) {
     .container .jumbotron {
-        background: url("/images/jumbotron_1200.jpg") no-repeat;
+        background: url('../images/jumbotron_1200.jpg') no-repeat;
         height: 675px;
     }
 }
 
 @media (mind-width: 992px) and (max-width: 1199px) {
+    .container .jumbotron {
+        background: url('../images/jumbotron_992.jpg') no-repeat;
+        height: 558px;
+    }
+
     #logo-img {
         background: url("/images/restaurant-logo_medium.png") no-repeat;
         width: 100px; 
         height: 100px; 
-        margin: 5px 5px 5px 0; 
-    }
-
-    .container .jumbotron {
-        background: url("/images/jumbotron_992.jpg") no-repeat;
-        height: 558px;
+        margin: 5px 5px 5px 0;  
     }
 }
 
 @media (mind-widht: 768px) and (max-width: 991px) {
     .container .jumbotron {
-        background: url("/images/jumbotron_768.jpg") no-repeat;
+        background: url('../images/jumbotron_768.jpg') no-repeat;
         height: 432px; 
     }
 }
@@ -150,7 +150,7 @@ body {
         font-size: 1.2em;
     }
 
-    #collapsable-nav a span{ /* Collapsable nav menu glyph */ 
+    #collapsable-nav a span { /* Collapsable nav menu glyph */ 
         font-size: 1em;
         margin-right: 5px; 
     }
