@@ -130,9 +130,7 @@ body {
 #testimonials p:nth-child(2) {
   margin-top: 25px;
 }
-/* End footer */ 
-
-
+/* End footer */
 
 /* Beginning of main page */
 
@@ -140,7 +138,41 @@ body {
   box-shadow: 0 0 50px #3f0c1f;
   border: 2px solid #3f0c1f;
 }
+/* End of the Home Page! */ 
 
+/* Menu categories page */ 
+
+.category-tile {
+  position: relative; 
+  border: 2px solid #3f0c1f; 
+  overflow: hidden; 
+  width: 200px; 
+  height: 200px; 
+  margin: 0 auto 15px; 
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%; 
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff; 
+  opacity: .8; 
+}
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+
+/* Large devices only */ 
 @media (min-width: 1200px) {
   .container .jumbotron {
     background: url("/images/jumbotron_1200.jpg") no-repeat;
@@ -148,6 +180,7 @@ body {
   }
 }
 
+/* Medium devices only */ 
 @media (min-width: 992px) and (max-width: 1199px) {
   .container .jumbotron {
     background: url("/images/jumbotron_992.jpg") no-repeat;
@@ -267,7 +300,7 @@ body {
 
   /* End Header */
 
-  /* Footer */ 
+  /* Footer */
   .panel-footer section {
     margin-bottom: 30px;
     text-align: center;
@@ -278,10 +311,10 @@ body {
   }
 
   .panel-footer section hr {
-    width: 50%; 
+    width: 50%;
   }
 
-  /* End footer */ 
+  /* End footer */
 
   .container .jumbotron {
     margin-top: 30px;
