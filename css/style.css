@@ -138,30 +138,30 @@ body {
   box-shadow: 0 0 50px #3f0c1f;
   border: 2px solid #3f0c1f;
 }
-/* End of the Home Page! */ 
+/* End of the Home Page! */
 
-/* Menu categories page */ 
+/* Menu categories page */
 
 .category-tile {
-  position: relative; 
-  border: 2px solid #3f0c1f; 
-  overflow: hidden; 
-  width: 200px; 
-  height: 200px; 
-  margin: 0 auto 15px; 
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
 }
 
 .category-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 100%; 
+  width: 100%;
   text-align: center;
   font-size: 1.2em;
   text-transform: uppercase;
   background-color: #000;
-  color: #fff; 
-  opacity: .8; 
+  color: #fff;
+  opacity: 0.8;
 }
 
 .category-tile:hover {
@@ -171,45 +171,45 @@ body {
 #menu-categories-title + div {
   margin-bottom: 50px;
 }
-/* End menu categories page */ 
+/* End menu categories page */
 
 .menu-item-tile {
-  margin-bottom: 25px; 
+  margin-bottom: 25px;
 }
 
 .menu-item-tile hr {
-  width: 80%; 
+  width: 80%;
 }
 
 .menu-item-tile .menu-item-price {
   font-size: 1.1em;
-  text-align: right; 
-  margin-top: -15px; 
+  text-align: right;
+  margin-top: -15px;
   margin-right: -15px;
 }
 
 .menu-item-tile .menu-item-price span {
-  font-size: .6em;
+  font-size: 0.6em;
 }
 
 .menu-item-photo {
   position: relative;
-  border: 2px solid #3f0c1f; 
+  border: 2px solid #3f0c1f;
   overflow: hidden;
   padding: 0;
-  margin-right: -15px; 
+  margin-right: -15px;
   margin-left: auto;
   margin-bottom: 20px;
-  max-width: 250px; 
+  max-width: 250px;
 }
 
 .menu-item-photo div {
   position: absolute;
-  bottom: 0; 
+  bottom: 0;
   right: 0;
   width: 80px;
   background-color: #557c3e;
-  text-align: center; 
+  text-align: center;
 }
 
 .menu-item-description {
@@ -217,16 +217,15 @@ body {
 }
 
 h3.menu-item-title {
-  margin: 0 0 10px; 
+  margin: 0 0 10px;
 }
 
 .menu-item-details {
-  font-size: .9em; 
-  font-style: italic; 
+  font-size: 0.9em;
+  font-style: italic;
 }
 
-
-/* Large devices only */ 
+/* Large devices only */
 @media (min-width: 1200px) {
   .container .jumbotron {
     background: url("/images/jumbotron_1200.jpg") no-repeat;
@@ -234,7 +233,7 @@ h3.menu-item-title {
   }
 }
 
-/* Medium devices only */ 
+/* Medium devices only */
 @media (min-width: 992px) and (max-width: 1199px) {
   .container .jumbotron {
     background: url("/images/jumbotron_992.jpg") no-repeat;
@@ -386,13 +385,12 @@ h3.menu-item-title {
   }
 
   .menu-item-tile .menu-item-price {
-    text-align: center; 
+    text-align: center;
   }
 
   .menu-item-description {
     text-align: center;
   }
-  
 }
 
 /* For super extra small devices only */
@@ -414,8 +412,7 @@ h3.menu-item-title {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    float: left; 
-    width: 100%; 
+    float: left;
+    width: 100%;
   }
-
 }
